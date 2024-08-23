@@ -51,7 +51,7 @@ export const PostsTable = ({ limit, title }: PostsTableProps) => {
                   {p.date}
                 </TableCell>
                 <TableCell className="">
-                  <Link href={`post/edit/${p.id}`}>
+                  <Link href={`posts/edit/${p.id}`}>
                     <Button className="bg-blue-500 hover:bg-blue-700 px-5">
                       Edit
                     </Button>
