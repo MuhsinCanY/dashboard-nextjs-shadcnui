@@ -138,7 +138,9 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
               </FormItem>
             )}
           />
-          <Button className="w-full mt-4">Submit</Button>
+          <Button className="w-full mt-6 dark:bg-slate-700 dark:text-slate-100">
+            Submit
+          </Button>
         </form>
       </Form>
     </>

@@ -4,6 +4,7 @@ import './globals.css'
 import { Navbar } from '@/components/Navbar'
 import { Sidebar } from '@/components/Sidebar'
 import { Toaster } from '@/components/ui/toaster'
+import { ThemeProvider } from '@/components/provider/ThemeProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,14 +21,23 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar></Navbar>
-        <div className="flex">
-          <div className="hidden md:block ">
-            <Sidebar />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Navbar></Navbar>
+          <div className="flex">
+            <div className="hidden md:block ">
+              <Sidebar />
+            </div>
+            <div className="md:max-w-[1200px] w-full p-5 mx-auto">
+              {children}
+            </div>
           </div>
-          <div className="md:max-w-[1200px] w-full p-5 mx-auto">{children}</div>
-        </div>
-        <Toaster />
+          <Toaster />
+        </ThemeProvider>
       </body>
     </html>
   )
