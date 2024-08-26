@@ -1,36 +1,83 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Admin Dashboard
 
-First, run the development server:
+![Admin Dashboard](https://github.com/user-attachments/assets/60d70a56-8029-4662-a9e6-ecf61f2ad410)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Admin Dashboard Login Page](https://github.com/user-attachments/assets/6671af09-bb22-4f36-a5ad-ed2e55fbb466)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is a **Next.js** Dashboard frontend application built with modern web technologies. The app is designed for optimal performance and developer experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Table of Contents
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Responsive Design**: Works seamlessly on all screen sizes.
+- **Light/Dark Mode**: Integrated with theme switching capabilities.
+- **Form Handling**: Built with validation and user-friendly error messages.
+- **State Management**: Efficiently handles state using modern React practices.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **[Next.js](https://nextjs.org/)**: A React framework for production.
+- **[TypeScript](https://www.typescriptlang.org/)**: Typed JavaScript at Any Scale.
+- **[Tailwind CSS](https://tailwindcss.com/)**: A utility-first CSS framework.
+- **[shadcn/ui](https://shadcn.dev/)**: A collection of reusable components.
+- **[React Hook Form](https://react-hook-form.com/)**: Performant, flexible, and extensible forms with easy-to-use validation.
+- **[Zod](https://zod.dev/)**: TypeScript-first schema declaration and validation.
+- **[next-themes](https://github.com/pacocoursey/next-themes)**: An easy way to manage light and dark themes in your Next.js app.
 
-## Deploy on Vercel
+## Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To run this project locally, follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Run the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+4. **Open your browser:**
+
+    Visit [http://localhost:3000](http://localhost:3000) to view the app.
+
+## Usage
+
+- The app comes with pre-built components and features. 
+- To customize or extend the functionality, modify the source code in the `src/` directory.
+- Use the integrated dark/light mode switcher to toggle between themes.
+  
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
+
+1. Fork the project
+2. Create your feature branch: `git checkout -b feature/AmazingFeature`
+3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
+4. Push to the branch: `git push origin feature/AmazingFeature`
+5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
