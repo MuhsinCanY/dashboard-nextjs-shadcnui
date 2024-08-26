@@ -6,6 +6,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ![Admin Dashboard Login Page](https://github.com/user-attachments/assets/6671af09-bb22-4f36-a5ad-ed2e55fbb466)
 
+![Admin Dashboard Posts and Edit Post](https://github.com/user-attachments/assets/c39dc27a-349a-4fcb-aae3-b389d597be23)
+
 This is a **Next.js** Dashboard frontend application built with modern web technologies. The app is designed for optimal performance and developer experience.
 
 ## Table of Contents
