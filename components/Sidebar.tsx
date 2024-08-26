@@ -36,24 +36,24 @@ export const Sidebar = () => {
           </CommandItem>
           <CommandItem>
             <Folder className="mr-2 h-4 w-4" />
-            <Link href="/categories"> Categories</Link>
+            <Link href="/"> Categories</Link>
           </CommandItem>
         </CommandGroup>
         <CommandSeparator />
         <CommandGroup heading="Settings">
           <CommandItem>
             <User className="mr-2 h-4 w-4" />
-            <Link href="/profile"> Profile</Link>
+            <Link href="/"> Profile</Link>
             <CommandShortcut>⌘P</CommandShortcut>
           </CommandItem>
           <CommandItem>
             <CreditCard className="mr-2 h-4 w-4" />
-            <Link href="/billing"> Billing</Link>
+            <Link href="/"> Billing</Link>
             <CommandShortcut>⌘B</CommandShortcut>
           </CommandItem>
           <CommandItem>
             <Settings className="mr-2 h-4 w-4" />
-            <Link href="/settings"> Settings</Link>
+            <Link href="/"> Settings</Link>
             <CommandShortcut>⌘S</CommandShortcut>
           </CommandItem>
         </CommandGroup>
